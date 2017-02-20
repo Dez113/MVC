@@ -1,0 +1,9 @@
+D:\VS\Projects\MVC\MVC\bin\Debug\MVC.exe.config
+D:\VS\Projects\MVC\MVC\bin\Debug\MVC.exe
+D:\VS\Projects\MVC\MVC\bin\Debug\MVC.pdb
+D:\VS\Projects\MVC\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
+D:\VS\Projects\MVC\MVC\obj\Debug\MVC.Form1.resources
+D:\VS\Projects\MVC\MVC\obj\Debug\MVC.Properties.Resources.resources
+D:\VS\Projects\MVC\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
+D:\VS\Projects\MVC\MVC\obj\Debug\MVC.exe
+D:\VS\Projects\MVC\MVC\obj\Debug\MVC.pdb
