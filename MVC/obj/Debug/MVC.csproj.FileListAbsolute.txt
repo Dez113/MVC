@@ -7,3 +7,15 @@ D:\VS\Projects\MVC\MVC\obj\Debug\MVC.Properties.Resources.resources
 D:\VS\Projects\MVC\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
 D:\VS\Projects\MVC\MVC\obj\Debug\MVC.exe
 D:\VS\Projects\MVC\MVC\obj\Debug\MVC.pdb
+D:\Repos\MVC\MVC\obj\Debug\MVC.Form1.resources
+D:\Repos\MVC\MVC\obj\Debug\MVC.Properties.Resources.resources
+D:\Repos\MVC\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
+D:\Repos\MVC\MVC\obj\Debug\MVC.exe
+D:\Repos\MVC\MVC\obj\Debug\MVC.pdb
+D:\Repos\MVC\MVC\bin\Debug\MVC.exe.config
+D:\Repos\MVC\MVC\bin\Debug\MVC.exe.manifest
+D:\Repos\MVC\MVC\bin\Debug\MVC.application
+D:\Repos\MVC\MVC\bin\Debug\MVC.exe
+D:\Repos\MVC\MVC\bin\Debug\MVC.pdb
+D:\Repos\MVC\MVC\obj\Debug\MVC.exe.manifest
+D:\Repos\MVC\MVC\obj\Debug\MVC.application
