@@ -8,9 +8,9 @@ namespace MVC
 {
     class Processing                                            // модель (логика и обработка)
     {
-        public static string ProcessData(string get_string)
+        public static void ProcessData()
         {
-            return get_string.ToUpper();
+            string text = 
         }
     }
 }

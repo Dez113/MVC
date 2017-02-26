@@ -17,14 +17,22 @@ namespace MVC
             InitializeComponent();
         }
 
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)                                                    //
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)                //  метод который вызывает метод контроллера                                           //
         {                                                                                                               //
             if (e.KeyCode == Keys.Enter)                                                                                //
-            {                                                                                                           //
-                string get_string = textBox1.Text;                                  // получаем текст                   //
-                string processed_string = Processing.ProcessData(get_string);       // обрабатываем                     // контроллер
-                label1.Text = processed_string;                                     // выводим                          //
+            {
+                Processing.ProcessData();
             }                                                                                                           //
-        }                                                                                                               //
+        }
+
+        public string GetText()
+        {
+            return textBox1.Text;
+        }
+
+        public void SetLabelText(string string_to_set)
+        {
+            label1.Text = string_to_set;
+        }
     }                                                                                                                   //
 }                                                                                                                       //
