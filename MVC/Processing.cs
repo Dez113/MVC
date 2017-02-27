@@ -12,6 +12,7 @@ namespace MVC
         public void ProcessData()
         {
             GetText Get = new GetText(Form1.GetText());
+            string text = Get();
             
             // делегат который будет получать текст и передавать для выведения в лэйбл
         }
