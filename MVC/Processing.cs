@@ -11,8 +11,8 @@ namespace MVC
         delegate string GetText();
         public void ProcessData()
         {
-            //GetText Get = new GetText(Form1.GetText());
-            Form1.GetText();
+            GetText Get = new GetText(Form1.GetText());
+            
             // делегат который будет получать текст и передавать для выведения в лэйбл
         }
     }

@@ -25,9 +25,9 @@ namespace MVC
                 P1.ProcessData();
             }                                                                                                           
         }
-        public string GetText()
+        public static string GetText()
         {
-            string a = textBox1.Text;                  //fdfdddddddddddddddddddddfddfgf
+            string a = ((Form1)ActiveForm).textBox1.Text;                  //fdfdddddddddddddddddddddfddfgf
             return a;
         }
 
