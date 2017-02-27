@@ -27,7 +27,7 @@ namespace MVC
         }
         public string GetText()
         {
-            string a = textBox1.Text;                  //fdfdddddddddddddddddddd
+            string a = textBox1.Text;                  //fdfdddddddddddddddddddddfddfgf
             return a;
         }
 
