@@ -8,9 +8,12 @@ namespace MVC
 {
     class Processing                                            // модель (логика и обработка)
     {
-        public static string ProcessData(string get_string)
+        delegate string GetText();
+        public void ProcessData()
         {
-            return get_string.ToUpper();
+            //GetText Get = new GetText(Form1.GetText());
+            Form1.GetText();
+            // делегат который будет получать текст и передавать для выведения в лэйбл
         }
     }
 }

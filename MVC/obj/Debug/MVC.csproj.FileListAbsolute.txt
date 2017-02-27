@@ -19,3 +19,7 @@ D:\Repos\MVC\MVC\bin\Debug\MVC.exe
 D:\Repos\MVC\MVC\bin\Debug\MVC.pdb
 D:\Repos\MVC\MVC\obj\Debug\MVC.exe.manifest
 D:\Repos\MVC\MVC\obj\Debug\MVC.application
+D:\VS\Projects\MVC\MVC\bin\Debug\MVC.exe.manifest
+D:\VS\Projects\MVC\MVC\bin\Debug\MVC.application
+D:\VS\Projects\MVC\MVC\obj\Debug\MVC.exe.manifest
+D:\VS\Projects\MVC\MVC\obj\Debug\MVC.application

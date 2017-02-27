@@ -17,14 +17,23 @@ namespace MVC
             InitializeComponent();
         }
 
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)                                                    //
-        {                                                                                                               //
-            if (e.KeyCode == Keys.Enter)                                                                                //
-            {                                                                                                           //
-                string get_string = textBox1.Text;                                  // получаем текст                   //
-                string processed_string = Processing.ProcessData(get_string);       // обрабатываем                     // контроллер
-                label1.Text = processed_string;                                     // выводим                          //
-            }                                                                                                           //
-        }                                                                                                               //
-    }                                                                                                                   //
-}                                                                                                                       //
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)                                                    
+        {                                                                                                               
+            if (e.KeyCode == Keys.Enter)                                                                                
+            {
+                Processing P1 = new Processing();
+                P1.ProcessData();
+            }                                                                                                           
+        }
+        public string GetText()
+        {
+            string a = textBox1.Text;
+            return a;
+        }
+
+        public void SetText(string toSet)
+        {
+            label1.Text = toSet;
+        }
+    }                                                                                                                   
+}                                                                                                                       
