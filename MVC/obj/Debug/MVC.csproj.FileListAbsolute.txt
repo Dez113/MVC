@@ -23,3 +23,4 @@ D:\VS\Projects\MVC\MVC\bin\Debug\MVC.exe.manifest
 D:\VS\Projects\MVC\MVC\bin\Debug\MVC.application
 D:\VS\Projects\MVC\MVC\obj\Debug\MVC.exe.manifest
 D:\VS\Projects\MVC\MVC\obj\Debug\MVC.application
+D:\Repos\MVC\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache

@@ -22,12 +22,12 @@ namespace MVC
             if (e.KeyCode == Keys.Enter)                                                                                
             {
                 Processing P1 = new Processing();
-                P1.ProcessData();
+                P1.ProcessData((Form1)ActiveForm);
             }                                                                                                           
         }
-        public static string GetText()
+        public string GetText()
         {
-            string a = ((Form1)ActiveForm).textBox1.Text;                  //fdfdddddddddddddddddddddfddfgf
+            string a = textBox1.Text;                  //fdfdddddddddddddddddddddfddfgf
             return a;
         }
 
