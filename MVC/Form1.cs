@@ -21,8 +21,8 @@ namespace MVC
         {                                                                                                               
             if (e.KeyCode == Keys.Enter)                                                                                
             {
-                Processing P1 = new Processing();
-                P1.ProcessData((Form1)ActiveForm);
+                
+                
             }                                                                                                           
         }
         public string GetText()

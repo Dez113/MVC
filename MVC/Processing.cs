@@ -9,8 +9,15 @@ namespace MVC
 {
     class Processing                                            // модель (логика и обработка)
     {
+        Form1 F1;
+
+        public Processing(Form1 F)
+        {
+            F1 = F;
+            //ProcessData();
+        }
         //delegate string GetTxt();
-        public void ProcessData(Form1 F1)
+        public void ProcessData()
         {
             //GetTxt Get = new GetTxt(Form1 F1);
             
