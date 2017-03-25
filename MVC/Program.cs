@@ -23,6 +23,7 @@ namespace MVC
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 form1 = new Form1();
             Controller P1 = new Controller(form1);
+            form1.onPressEnter += P1.DoWork;
             Application.Run(form1);
 
             

@@ -12,7 +12,7 @@ namespace MVC
         public Controller(Form1 form1)
         {
             F = form1;
-            F.onPressEnter += DoWork;
+            //F.onPressEnter += DoWork;
         }
 
         public void DoWork()
