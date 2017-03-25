@@ -17,11 +17,16 @@ namespace MVC
             InitializeComponent();
         }
 
+
+        public delegate void MyDelegate();
+        public event MyDelegate onPressEnter;
+
         private void textBox1_KeyDown(object sender, KeyEventArgs e)                                                    
         {                                                                                                               
             if (e.KeyCode == Keys.Enter)                                                                                
             {
-                
+                onPressEnter();
+                //нужно сделать событие на которое будет подписан контроллер
                 
             }                                                                                                           
         }
