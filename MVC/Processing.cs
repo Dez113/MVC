@@ -34,17 +34,16 @@ namespace MVC
                 return "Строка из смешанных символов";
             }
 
+            
+            if (Digits > 0 && Letters == 0)
+            {
+                return "Строка цифр";
+            }
             else
             {
-                if (Digits > 0 && Letters == 0)
-                {
-                    return "Строка цифр";
-                }
-                else
-                {
-                    return "Строка букв";
-                }
+                return "Строка букв";
             }
+            
         }
     }
 }

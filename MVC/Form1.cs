@@ -10,6 +10,10 @@ using System.Windows.Forms;
 
 namespace MVC
 {
+
+    
+
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -17,9 +21,13 @@ namespace MVC
             InitializeComponent();
         }
 
+        
+
+
         public delegate void MyDelegate();
         public event MyDelegate onPressEnter;
 
+        
         private void textBox1_KeyDown(object sender, KeyEventArgs e)                                                    
         {                                                                                                               
             if (e.KeyCode == Keys.Enter && textBox1.Text != "")                                                                                
