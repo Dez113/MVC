@@ -17,23 +17,25 @@ namespace MVC
             InitializeComponent();
         }
 
-
         public delegate void MyDelegate();
         public event MyDelegate onPressEnter;
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)                                                    
         {                                                                                                               
-            if (e.KeyCode == Keys.Enter)                                                                                
+            if (e.KeyCode == Keys.Enter && textBox1.Text != "")                                                                                
             {
                 onPressEnter();
-                //нужно сделать событие на которое будет подписан контроллер
-                
+            }
+
+            else
+            {
+                label1.Text = "";
             }                                                                                                           
         }
+
         public string GetText()
         {
-            string a = textBox1.Text;                  //fdfdddddddddddddddddddddfddfgf
-            return a;
+            return textBox1.Text;
         }
 
         public void SetText(string toSet)

@@ -27,12 +27,13 @@ namespace MVC
                 {
                     Letters++;
                 }
-                    
             }
+
             if (Digits > 0 && Letters > 0)
             {
-                return "Строка из смешанных значений";
+                return "Строка из смешанных символов";
             }
+
             else
             {
                 if (Digits > 0 && Letters == 0)
@@ -44,9 +45,6 @@ namespace MVC
                     return "Строка букв";
                 }
             }
-            
-
         }
-
     }
 }

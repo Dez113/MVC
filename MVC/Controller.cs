@@ -11,11 +11,12 @@ namespace MVC
         delegate string DelegateToModel(string string_to_process);                      // объявление типов делегатов
         delegate string DelegateToView_GetInfo();
         delegate void DelegateToView_SetInfo(string string_to_set);
+
         Form1 F;
+
         public Controller(Form1 form1)
         {
             F = form1;
-            //F.onPressEnter += DoWork;
         }
 
         public void DoWork()
