@@ -13,8 +13,39 @@ namespace MVC
         
         public static string ProcessData(string string_to_store)
         {
+            int Digits = 0;
+            int Letters = 0;
             str = string_to_store;
-            return str;
+            
+            foreach (char ch in str)
+            {
+                if (char.IsDigit(ch))
+                {
+                    Digits++;
+                }
+                else
+                {
+                    Letters++;
+                }
+                    
+            }
+            if (Digits > 0 && Letters > 0)
+            {
+                return "Строка из смешанных значений";
+            }
+            else
+            {
+                if (Digits > 0 && Letters == 0)
+                {
+                    return "Строка цифр";
+                }
+                else
+                {
+                    return "Строка букв";
+                }
+            }
+            
+
         }
 
     }

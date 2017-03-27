@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MVC.exe" size="9216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MVC.exe" size="9728">
       <assemblyIdentity name="MVC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4MDDvuxw/3vJBLs7JzpPX6yt/mOQwZ3sh4DazUTStnE=</dsig:DigestValue>
+        <dsig:DigestValue>JfM9M6sOlDa053GjTtLgFMW7EVJk0tpTMTPXy+Ayhb8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

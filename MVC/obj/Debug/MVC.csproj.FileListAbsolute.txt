@@ -24,3 +24,16 @@ D:\VS\Projects\MVC\MVC\bin\Debug\MVC.application
 D:\VS\Projects\MVC\MVC\obj\Debug\MVC.exe.manifest
 D:\VS\Projects\MVC\MVC\obj\Debug\MVC.application
 D:\Repos\MVC\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
+D:\VS\MVC\MVC\bin\Debug\MVC.exe.config
+D:\VS\MVC\MVC\obj\Debug\MVC.exe
+D:\VS\MVC\MVC\obj\Debug\MVC.pdb
+D:\VS\MVC\MVC\bin\Debug\MVC.exe.manifest
+D:\VS\MVC\MVC\bin\Debug\MVC.application
+D:\VS\MVC\MVC\bin\Debug\MVC.exe
+D:\VS\MVC\MVC\bin\Debug\MVC.pdb
+D:\VS\MVC\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
+D:\VS\MVC\MVC\obj\Debug\MVC.Form1.resources
+D:\VS\MVC\MVC\obj\Debug\MVC.Properties.Resources.resources
+D:\VS\MVC\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
+D:\VS\MVC\MVC\obj\Debug\MVC.exe.manifest
+D:\VS\MVC\MVC\obj\Debug\MVC.application
