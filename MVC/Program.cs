@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace MVC
 {
-    public delegate void first_delegate();
-    //public static first_delegate sda;
     
+
+
     static class Program
     {
         
@@ -24,9 +24,13 @@ namespace MVC
             Form1 form1 = new Form1();
             Controller P1 = new Controller(form1);
             form1.onPressEnter += P1.DoWork;
+            P1.Get += form1.GetText;
+            P1.Set += form1.SetText;
             Application.Run(form1);
 
             
+            
+
         }
     }
 }
