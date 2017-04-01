@@ -24,7 +24,7 @@ namespace MVC
             Form1 form1 = new Form1();
             Controller P1 = new Controller(form1);                  //создание экземпляра котроллера
 
-            IControll IP1 = (IControll)P1;                          // явное объявление интерфейса
+            IControll IP1 = (IControll)P1;                          // явная реализация интерфейса экземпляра контроллера
             
             form1.onPressEnter += IP1.DoWork;                       // доступны только методы реализованные в интерфейсе
             P1.Get += form1.GetText;
