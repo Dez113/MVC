@@ -8,7 +8,7 @@ namespace MVC
 {
     public delegate void DelegateToView_SetInfo(string string_to_set);
     public delegate string DelegateToView_GetInfo();
-    class Controller
+    class Controller : IControll
     {
         Form1 F;
         public DelegateToView_GetInfo Get;
