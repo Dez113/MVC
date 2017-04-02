@@ -12,8 +12,8 @@ namespace MVC
         void SetText(string to_set);
     }
 
-    interface IControll
-    {
-        void DoWork();
-    }
+    //interface IControll
+    //{
+    //    void DoWork();
+    //}
 }
