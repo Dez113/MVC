@@ -10,13 +10,13 @@ namespace MVC
     public delegate string DelegateToView_GetInfo();
     class Controller : IControll
     {
-        Form1 F;
+        //Form1 F;
         public DelegateToView_GetInfo Get;
         public DelegateToView_SetInfo Set;
 
-        public Controller(Form1 form1)
+        public Controller()
         {
-            F = form1;
+            
         }
 
         public void DoWork()

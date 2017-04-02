@@ -14,7 +14,7 @@ namespace MVC
     
 
 
-    public partial class Form1 : Form, ItoForm
+    public partial class Form1 : Form, IToForm
     {
         public Form1()
         {
