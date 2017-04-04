@@ -10,11 +10,11 @@ namespace MVC
     public delegate string DelegateToView_GetInfo();
     class Controller
     {
-        IToForm F;
+        IForm F;
         //public DelegateToView_GetInfo Get;
         //public DelegateToView_SetInfo Set;
 
-        public Controller(IToForm form1)
+        public Controller(IForm form1)
         {
             F = form1;
         }

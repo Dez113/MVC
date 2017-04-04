@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MVC
 {
-    interface IToForm
+    interface IForm
     {
         string GetText();
         void SetText(string to_set);
