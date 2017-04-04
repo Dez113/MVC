@@ -22,7 +22,7 @@ namespace MVC
         public void DoWork()
         {
             string get_from_view = Get();
-            string result = Model.ProcessData(get_from_view);
+            string result = Model.getInstance().ProcessData(get_from_view);
             Set(result);
         }
     }

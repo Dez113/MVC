@@ -9,9 +9,22 @@ namespace MVC
 {
     class Model                                            // модель (логика и обработка)
     {
+        private static Model instance;
         static string str;
         
-        public static string ProcessData(string string_to_store)
+        private Model()
+        {
+
+        }
+
+        public static Model getInstance()
+        {
+            if (instance == null)
+                instance = new Model();
+            return instance;
+        } 
+
+        public string ProcessData(string string_to_store)
         {
             int Digits = 0;
             int Letters = 0;
