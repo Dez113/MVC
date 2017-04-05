@@ -14,7 +14,7 @@ namespace MVC
     
 
 
-    public partial class Form1 : Form, IToForm
+    public partial class Form1 : Form, IStringOperations
     {
         public Form1()
         {
