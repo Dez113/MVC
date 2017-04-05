@@ -10,7 +10,7 @@ namespace MVC
     class Model                                            // модель (логика и обработка)
     {
         private static Model instance;
-        static string str;
+        static string str = "";
         
         private Model()
         {
@@ -57,6 +57,12 @@ namespace MVC
                 return "Строка букв";
             }
             
+        }
+
+        public string ProcessData2(string string_to_store)
+        {
+            str += string_to_store;
+            return str;
         }
     }
 }

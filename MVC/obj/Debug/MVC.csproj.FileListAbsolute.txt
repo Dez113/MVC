@@ -37,3 +37,4 @@ D:\VS\MVC\MVC\obj\Debug\MVC.Properties.Resources.resources
 D:\VS\MVC\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
 D:\VS\MVC\MVC\obj\Debug\MVC.exe.manifest
 D:\VS\MVC\MVC\obj\Debug\MVC.application
+D:\VS\Projects\MVC\MVC\obj\Debug\MVC.Form2.resources

@@ -21,16 +21,16 @@ namespace MVC
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Form1 form1 = new Form1();
-            Controller P1 = new Controller((IStringOperations) form1);                  //создание экземпляра котроллера
+            Form2 form2 = new Form2();
+            Controller P1 = new Controller((IStringOperations) form2);                  //создание экземпляра котроллера
 
-            form1.onPressEnter += P1.DoWork;                       // доступны только методы реализованные в интерфейсе
-
+            //form1.onPressEnter += P1.DoWork;                       // доступны только методы реализованные в интерфейсе
+            form2.onPressButton += P1.DoWork;
             //P1.Get = form1.GetText;
             //P1.Set = form1.SetText;
 
 
-            Application.Run(form1);
+            Application.Run(form2);
 
             
             

@@ -14,15 +14,15 @@ namespace MVC
         //public DelegateToView_GetInfo Get;
         //public DelegateToView_SetInfo Set;
 
-        public Controller(IStringOperations form1)
+        public Controller(IStringOperations form)
         {
-            F = form1;
+            F = form;
         }
 
         public void DoWork()
         {
             string get_from_view = F.GetText();
-            string result = Model.getInstance().ProcessData(get_from_view);
+            string result = Model.getInstance().ProcessData2(get_from_view);
             F.SetText(result);
         }
     }
