@@ -18,13 +18,13 @@ namespace MVC
             InitializeComponent();
         }
 
-        string var = "";
+        string temp = "";
         public delegate void Delegate();
         public event Delegate onPressButton;
 
         public string GetText()
         {
-            return var;
+            return temp;
         }
 
         public void SetText(string to_set)
@@ -33,25 +33,25 @@ namespace MVC
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            var = button1.Text;
+            temp = button1.Text;
             onPressButton();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var = button2.Text;
+            temp = button2.Text;
             onPressButton();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var = button3.Text;
+            temp = button3.Text;
             onPressButton();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            var = button4.Text;
+            temp = button4.Text;
             onPressButton();
         }
     }
