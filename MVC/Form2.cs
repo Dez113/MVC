@@ -29,7 +29,7 @@ namespace MVC
 
         public void SetText(string to_set)
         {
-            textBox1.Text = to_set;
+            textBox1.Text += to_set;
         }
         private void button1_Click(object sender, EventArgs e)
         {

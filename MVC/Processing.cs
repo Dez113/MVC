@@ -61,8 +61,8 @@ namespace MVC
 
         public string ProcessData2(string string_to_store)
         {
-            str += string_to_store;
-            return str;
+            //str += string_to_store;
+            return string_to_store;
         }
     }
 }
