@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MVC
+﻿namespace MVC
 {
     public delegate void DelegateToView_SetInfo(string string_to_set);
     public delegate string DelegateToView_GetInfo();
@@ -25,5 +19,6 @@ namespace MVC
             string result = Model.getInstance().ProcessData2(get_from_view);
             F.SetText(result);
         }
+
     }
 }
