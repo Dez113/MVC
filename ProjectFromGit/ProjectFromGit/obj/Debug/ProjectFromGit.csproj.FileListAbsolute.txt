@@ -1,0 +1,1 @@
+D:\VS\Projects\MVC\ProjectFromGit\ProjectFromGit\bin\Debug\ProjectFromGit.exe.config
