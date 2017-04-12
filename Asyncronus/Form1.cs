@@ -7,7 +7,7 @@ namespace Asyncronus
 {
     public partial class Form1 : Form
     {
-        bool isWorking = false;
+        
         int random_int;
 
 
@@ -19,22 +19,19 @@ namespace Asyncronus
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!isWorking)
+            if (!backgroundWorker1.IsBusy)
             {
                 Debug.WriteLine("Bworker is started");
                 backgroundWorker1.RunWorkerAsync();
                 timer1.Interval = 1000;
-
                 timer1.Start();
-                //isWorking = true;
             }
             else
             {
                 Debug.WriteLine("Stoping Bworker");
-                backgroundWorker1.CancelAsync();
+                backgroundWorker1.Dispose();
                 timer1.Stop();
                 Debug.WriteLine("Bworker was stoped");
-                isWorking = false;
             }
             
             
@@ -56,12 +53,6 @@ namespace Asyncronus
                 }
             }
             Debug.WriteLine("backgroundWorker is stoped");
-            isWorking = false;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Debug.WriteLine("button2 is pressed");
         }
 
         private void timer1_Tick(object sender, EventArgs e)
