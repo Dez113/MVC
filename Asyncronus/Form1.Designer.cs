@@ -55,6 +55,10 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // backgroundWorker1
             // 
             this.backgroundWorker1.WorkerReportsProgress = true;

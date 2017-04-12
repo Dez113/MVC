@@ -7,3 +7,12 @@ D:\VS\Projects\MVC\Asyncronus\obj\Debug\Asyncronus.csproj.GenerateResource.Cache
 D:\VS\Projects\MVC\Asyncronus\obj\Debug\Asyncronus.exe
 D:\VS\Projects\MVC\Asyncronus\obj\Debug\Asyncronus.pdb
 D:\VS\Projects\MVC\Asyncronus\obj\Debug\Asyncronus.csprojResolveAssemblyReference.cache
+D:\Repos\MVC\Asyncronus\bin\Debug\Asyncronus.exe.config
+D:\Repos\MVC\Asyncronus\obj\Debug\Asyncronus.exe
+D:\Repos\MVC\Asyncronus\obj\Debug\Asyncronus.pdb
+D:\Repos\MVC\Asyncronus\bin\Debug\Asyncronus.exe
+D:\Repos\MVC\Asyncronus\bin\Debug\Asyncronus.pdb
+D:\Repos\MVC\Asyncronus\obj\Debug\Asyncronus.csprojResolveAssemblyReference.cache
+D:\Repos\MVC\Asyncronus\obj\Debug\Asyncronus.Form1.resources
+D:\Repos\MVC\Asyncronus\obj\Debug\Asyncronus.Properties.Resources.resources
+D:\Repos\MVC\Asyncronus\obj\Debug\Asyncronus.csproj.GenerateResource.Cache
