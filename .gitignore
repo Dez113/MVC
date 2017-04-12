@@ -1,1 +1,4 @@
 *.suo
+debug
+bin
+obj
