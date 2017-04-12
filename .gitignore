@@ -1,4 +1,4 @@
 *.suo
-debug
-bin
-obj
+debug/
+bin/
+obj/
